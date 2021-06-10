@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: #f7f7f7;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.perfil img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.insta-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.insta-phone img{
+    height: 40rem;
+}
+
+.grupo_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45%;
+    min-height: 25rem;
+    background: #ffff;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.instagram-logo img{
+    height: 3rem;
+}
+
+.link-1{
+    background-color: #0095f6;
+    padding: 8px;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.link-1 a{
+    color: #ffff;
+}
+
+.link-2 a{
+    font-weight: bold;
+    color: #0095f6;
+}
